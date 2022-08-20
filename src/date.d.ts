@@ -1,0 +1,5 @@
+
+interface Date {
+    toBuffer(): Buffer;
+    // ...
+}
