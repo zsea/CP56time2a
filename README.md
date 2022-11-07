@@ -41,10 +41,17 @@ import CP56Time2a from '../index';
 let d1=new CP56Time2a();
 let d2=new CP56Time2a(new Date());
 let d3=new CP56Time2a(buffer:Buffer);
+let d3=new CP56Time2a(buffer:number[]);
 ```
 
 ## 转换为Buffer
 
 ```javascript
 d1.toBuffer();
+```
+
+## 转换为数组
+
+```javascript
+d1.toArray();
 ```

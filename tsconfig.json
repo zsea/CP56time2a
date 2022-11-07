@@ -7,6 +7,6 @@
       "strict": true,
       "lib": ["es6"]
     },
-    "include": ["src"],
+    "include": ["src", "test/CP56Time2a.test.ts"],
     "exclude": ["node_modules", "**/__tests__/*"]
   }
